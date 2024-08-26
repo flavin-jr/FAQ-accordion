@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color: #F8EEFF;
+  width: 100wh;
+  height: 100vh;
+  position: relative;
+}
+body .main {
+  background: url("/assets/images/background-pattern-desktop.svg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+body .faq-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 40px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid #E3E3E3;
+  box-shadow: 0 32px 56px rgba(80, 0, 118, 0.1);
+}
+body .faq-card .card-title {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+body .faq-card .card-title h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #301534;
+}
+body .faq-card .faqs-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+body .faq-card .faqs-content .question-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+body .faq-card .faqs-content .question-content div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .faq-card .faqs-content .question-content p:first-child {
+  color: #301534;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+body .faq-card .faqs-content .question-content button {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+body .faq-card .faqs-content .question-content p:last-child {
+  color: #8B6990;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+body .faq-card .faqs-content .line {
+  height: 1px;
+  background-color: #F8EEFF;
+}
+
+/*# sourceMappingURL=style.css.map */
