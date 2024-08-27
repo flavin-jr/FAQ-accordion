@@ -44,6 +44,11 @@ body .faq-card {
   flex-direction: column;
   z-index: 2;
 }
+@media (max-width: 653px) {
+  body .faq-card {
+    padding: 24px;
+  }
+}
 body .faq-card .card-title {
   display: flex;
   align-items: center;
@@ -74,6 +79,11 @@ body .faq-card .faqs-content .question-content div {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (max-width: 653px) {
+  body .faq-card .faqs-content .question-content div {
+    gap: 24px;
+  }
 }
 body .faq-card .faqs-content .question-content p:first-child {
   color: #301534;
