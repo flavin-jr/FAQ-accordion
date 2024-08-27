@@ -8,7 +8,7 @@ const checkIsButtonActivate = (icon) => {
         if (button !== icon && !button.hasAttribute('plus')) {
 
             button.parentNode.parentNode.parentNode.children[1].classList.toggle('hidden')
-            button.src = '/assets/images/icon-plus.svg';
+            button.src = 'assets/images/icon-plus.svg';
             button.toggleAttribute('plus')
         }
 
@@ -22,12 +22,12 @@ const handleClick = (e, answer) => {
 
     if (icon.hasAttribute('plus')) {
         icon.toggleAttribute('plus')
-        icon.src = '/assets/images/icon-minus.svg';
+        icon.src = 'assets/images/icon-minus.svg';
         answer.classList.toggle('hidden')
     }
     else {
         icon.toggleAttribute('plus')
-        icon.src = '/assets/images/icon-plus.svg';
+        icon.src = 'assets/images/icon-plus.svg';
         answer.classList.toggle('hidden')
 
     }
